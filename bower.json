@@ -1,0 +1,26 @@
+{
+  "name": "mso",
+  "private": true,
+  "version": "0.0.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "signalr": "~2.1.2",
+    "highstock-release": "~2.0.4",
+    "jquery": "~2.1.1",
+    "mso-extjs": "https://github.com/mequanta/bower-extjs.git#~5.0.1"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.*",
+      "css": "dist/css/*.*",
+      "fonts": "dist/fonts/*.*"
+    }
+  }
+}
