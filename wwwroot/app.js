@@ -1,16 +1,11 @@
+Ext.Loader.setPath('Ext.ux', 'ext/ux');
+Ext.require([
+    'Ext.ux.form.field.Ace',
+    'Ext.ux.form.field.CodeMirror',
+    'Ext.ux.HighStock' 
+]);
+
 Ext.application({
-    name   : 'Demo',
-
-    launch : function() {
-
-       Ext.create('Ext.Panel', {
-            renderTo     : Ext.getBody(),
-            width        : 200,
-            height       : 150,
-            bodyPadding  : 5,
-            title        : 'Hello World',
-            html         : 'Hello <b>World</b>...'
-        });
-
-    }
+    name: "Mso",
+    extend: 'Mso.Application'
 });

@@ -14,7 +14,9 @@
     "signalr": "~2.1.2",
     "highstock-release": "~2.0.4",
     "jquery": "~2.1.1",
-    "mso-extjs": "https://github.com/mequanta/bower-extjs.git#~5.0.1"
+    "mso-extjs": "https://github.com/mequanta/bower-extjs.git#~5.0.1",
+    "ace-builds": "~1.1.8",
+    "codemirror": "~4.8.0"
   },
   "exportsOverride": {
     "bootstrap": {
