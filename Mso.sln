@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "mso", "mso.kproj", "{DFB53F51-3B6C-49E8-8A20-607FC7C37A06}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Mso", "src\Mso\Mso.kproj", "{DFB53F51-3B6C-49E8-8A20-607FC7C37A06}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9C6AECA-711C-48D1-AB9D-FBCD9EC9F6CC}"
 	ProjectSection(SolutionItems) = preProject
