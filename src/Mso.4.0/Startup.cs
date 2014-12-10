@@ -16,7 +16,7 @@ namespace Mso
     {
         public void Configuration(IAppBuilder app)
         {
-            var options = new StaticFileOptions { FileSystem = new PhysicalFileSystem("../../wwwroot") };
+            var options = new StaticFileOptions { FileSystem = new PhysicalFileSystem("../../../Mso/wwwroot") };
             app.UseStaticFiles(options);
             app.UseWelcomePage();
             app.Map("/signalr", map =>
