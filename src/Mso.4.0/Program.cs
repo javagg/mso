@@ -14,12 +14,11 @@ namespace Mso
             string port = Environment.GetEnvironmentVariable("PORT");
             port = string.IsNullOrEmpty(port) ? "6118" : port;
             string url = string.Format("http://*:{0}", port);
+
             using (WebApp.Start<Startup>(url))
             {
                 Console.WriteLine("The Server URL is: {0}", url);
                 Console.ReadLine();
-//                while (true)
-//                    Thread.Sleep(1000);
             }
         }
     }
